@@ -1,0 +1,683 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #f6fbe4;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #a5ca24;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #a5ca24;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f6fbe4;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #f6fbe4;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+a,
+a:visited {
+    text-decoration: underline;
+    color: #4f6404;
+}
+
+html {
+    max-width: 1000px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Francois One', sans-serif;
+    background-image: url('../img/20.jpg');
+    z-index: -1000;
+}
+
+.buttons {
+    height: 100px;
+    margin: auto;
+    padding-top: 15%;
+    font-size: 1.1em;
+    color: #1c0505;
+}
+
+    button#start {
+        background-color: #5ca34b;
+        border: 2px solid #bab7b3;
+    }
+
+    button#stop {
+        background-color: #885e65;
+        border: 2px solid #bab7b3;
+    }
+
+    button#reset {
+        background-color: #c99628;
+        border: 2px solid #bab7b3;
+    }
+
+.clickable:hover {
+    color: #00005C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.clock {
+    display: block;
+    font-size: 5em;
+    font-weight: bolder;
+    color: #dfe856;
+    height: 100px;
+    margin: auto;
+    margin-top: -5px;
+    padding-top: 45%;
+
+}
+
+.clock span {
+    background-color: #4f6404;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #283302;
+    border-radius: 45px;
+}
+
+.catButton {
+    min-width: 100px;
+}
+
+.credits {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    color: #a5ad27;
+    font-size: 0.75em;
+}
+
+.feedback {
+    margin: 1% 0 0 0;
+    font-size: 1.1em;
+    padding-top: 2px;
+}
+    .neutral {
+        color: #191919;
+    }
+
+    .poor {
+        color: #d75134;
+    }
+
+    .well {
+        color: #3469d7;
+    }
+
+    .great {
+        color: #34d751;
+    }
+
+#game {
+    width: 90%;
+    height: auto;
+    max-width: 1000px;
+    min-height: 485px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+
+#instructions {
+    font-family: 'Francois One', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.main-container {
+    max-width: 1000px;
+    padding-top: 20px;
+    background-image: url(../img/cat-clock-2-500.png);
+    background-repeat:no-repeat;
+    background-position: center left;
+    z-index: -100;
+    vertical-align: middle;
+}
+
+.score {
+    margin: 2%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: blue;
+}
+
+.stopWatch {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.scoreboard {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.scoreboard h1 {
+    font-size: 1em;
+}
+
+.scoreboard h1 span#score_span {
+    background-color: #d7a334;
+    padding: 2% 4% 2% 4%;
+}
+
+.scoreboard h1 span#points_span {
+    background-color: #bad734;
+    padding: 2% 4% 2% 4%;
+}
+
+.scoreboard h1 span#tries_span {
+    background-color: #d75134;
+    padding: 2% 4% 2% 4%;
+}
+
+.title {
+    color: #4f6404;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 2em;
+}
+
+.winButton {
+    min-width: 200px;
+    min-height: 75px;
+    background-color: #c99628;
+    border-radius: 15px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#win {
+    visibility: hidden;
+    position: fixed;
+    width: 380px;
+    height: 280px;
+    max-width: 1000px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -190px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F5FFE0;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 20px 11px rgba(50, 50, 50, 0.28);
+    -moz-box-shadow:    1px 1px 20px 11px rgba(50, 50, 50, 0.28);
+    box-shadow:         1px 1px 20px 11px rgba(50, 50, 50, 0.28);
+    -webkit-transition: background-color 2s, box-shadow 1s; /* Safari */
+    transition: background-color 2s, box-shadow 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+#win div {
+    position: relative;
+    max-width: 100%;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#win:hover {
+    background-color: #bad734;
+    -webkit-box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow:    0px 0px 30px 20px rgba(0, 0, 0, 0.46);
+    box-shadow:         0px 0px 30px 20px rgba(0, 0, 0, 0.46);
+}
+
+/* ==============
+Custom styles for medium screens 
+=================*/
+
+@media only screen and (min-width: 450px) {
+  
+    .main-container {
+        background-image: url(../img/cat-clock-2.png);
+        background-repeat:no-repeat;
+        background-position: center;
+        z-index: -100;
+    }
+
+    .buttons {
+        padding-top: 2%;
+    }
+
+    .clock {
+        padding-top: 35%;
+    }
+    
+    .scoreboard h1 {
+        font-size: 1.5em;
+    }
+
+    .title h1 {
+        font-size: 3em;
+    }
+
+}
+
+/* ==============
+Custom styles for large screens 
+=================*/
+
+@media only screen and (min-width: 768px) {
+    
+    .main-container {
+        max-width: 1000px;
+        background-image: url(../img/cat-clock-2.png);
+        background-repeat:no-repeat;
+        background-position: center;
+        z-index: -100;
+    }
+
+    .buttons {
+        padding-top: 2%;
+       
+    }
+
+    .clock {
+        padding-top: 20%;
+    }
+
+
+    .feedback {
+        margin: 3% 0 0 0;
+        font-size: 1.25em;
+        min-height: 55px;
+    }
+
+    .game {
+        min-height: 600px;
+    }
+
+    .scoreboard h1 {
+        font-size: 2em;
+    }
+
+    .title h1 {
+        font-size: 3.25em;
+    }
+
+    #win {
+        width: 500px;
+        height: 300px;
+        margin-top: -150px;
+        margin-left: -250px;
+
+    }
+
+}
+
+/* ==============
+Custom styles for x-large screens 
+=================*/
+
+@media only screen and (min-width: 1000px) {
+
+    .buttons {
+        padding-top: 0.1%;
+    }
+
+    .clock {
+        padding-top: 20%;
+    }
+
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
