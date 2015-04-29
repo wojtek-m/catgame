@@ -202,13 +202,15 @@ body {
 
 .clock {
     display: block;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bolder;
     color: #dfe856;
     height: 100px;
+    width: auto;
     margin: auto;
     margin-top: -5px;
-    padding-top: 45%;
+    margin-bottom: -50px;
+    padding-top: 48%;
 
 }
 
@@ -216,7 +218,7 @@ body {
     background-color: #4f6404;
     padding: 10px 30px 10px 30px;
     border: 1px solid #283302;
-    border-radius: 45px;
+    border-radius: 25px;
 }
 
 .catButton {
@@ -258,8 +260,8 @@ body {
     max-width: 1000px;
     min-height: 485px;
     margin: auto;
-    margin-top: 65px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     position: relative;
     text-align: center;
 }
@@ -273,12 +275,13 @@ body {
 
 .main-container {
     max-width: 1000px;
-    padding-top: 20px;
-    background-image: url(../img/cat-clock-2-500.png);
+    padding-top: -10px;
+    background-image: url(../img/cat-clock-2-375.png);
     background-repeat:no-repeat;
-    background-position: center left;
+    background-position: top left;
     z-index: -100;
     vertical-align: middle;
+    margin-bottom: -100px;
 }
 
 .score {
@@ -389,6 +392,8 @@ Custom styles for medium screens
         background-repeat:no-repeat;
         background-position: center;
         z-index: -100;
+        padding-top: 75px;
+        margin-bottom: 25px;
     }
 
     .buttons {
@@ -397,6 +402,8 @@ Custom styles for medium screens
 
     .clock {
         padding-top: 35%;
+        font-size: 4em;
+        margin-bottom: -10px;
     }
     
     .scoreboard h1 {

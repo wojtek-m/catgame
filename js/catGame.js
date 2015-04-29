@@ -1,3 +1,9 @@
+/*
+  Mini stopwatch game 
+ */
+
+'use strict';
+
 var MS_IN_MINUTE = 600;
 var MS_IN_SEC = 10;
 var timeInMs = 0; // time in milliseconds
